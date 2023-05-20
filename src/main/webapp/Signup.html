@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sign up page</title>
+</head>
+<body>
+<h1> Welcome Signup page</h1><br>
+<form action="signup" method="post">
+<table>
+<tr>
+<th>Enter the Email:</th>
+<th> <input type="email" name="email" placeholder="enter the email" required="required"> </th>
+</tr>
+<tr>
+<th>Enter the Mobile:</th>
+<th> <input type="number" name="mobile" pattern="[0-9]{10}" placeholder="enter the number" required="required"> </th>
+</tr>
+<tr>
+<th>Enter the Name:</th>
+<th> <input type="text" name="name" placeholder="enter the name" required="required"> </th>
+</tr>
+<tr>
+<th>Enter the Password:</th>
+<th> <input type="password" name="password" placeholder="enter the password" required="required"> </th>
+</tr>
+<tr>
+<th>Gender:</th>
+<th> 
+<input type="radio" name="gender" value="male" required="required">Male
+<input type="radio" name="gender" value="female">Female
+</th>
+</tr>
+<tr>
+<th>Enter the Date of birth:</th>
+<th> <input type="date" name="dob" required="required"> </th>
+</tr>
+<tr>
+<th>Address:</th>
+<th><textarea rows="5" cols="30" name="address" required="required"></textarea></th>
+</tr>
+<tr> 
+<th><button type="reset"> Cancel </button> </th>
+<th><button> Signup </button></th>
+</tr>
+</table>
+</form>
+<a href="Home.jsp"> <button>Home</button></a>
+</body>
+</html>

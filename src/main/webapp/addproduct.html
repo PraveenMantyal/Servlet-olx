@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>Enter Product Details to Add</h1><br>
+<form action="saveproduct" method="post" enctype="multipart/form-data">
+ <table>
+<tr>
+<th>Enter the Product name: </th>
+<th> <input type="text" name="pname" placeholder="Enter the product name"> </th>
+</tr>
+<tr>
+<th>Product Price:</th>
+<th> <input type="text" name="pprice" placeholder="Enter the Product price"> </th>
+</tr>
+<tr>
+<th>Product Description:</th>
+<th> <input type="text" name="pdesc" placeholder="Enter the Product Description"> </th>
+</tr>
+<tr>
+<th>Product image:</th>
+<th> <input type="file" name="pimg"> </th>
+</tr>
+<tr> 
+<th><button type="reset"> Cancel </button> </th>
+<th><button>Add to sale </button> </th>
+</tr>
+</table>
+<a href="Home.jsp"><button>Home</button></a>
+</form>
+</body>
+</html>
